@@ -30,3 +30,16 @@
 # ### User Challenges
 
 # GET http://localhost:3000/user_challenge?userId=1&_embed=challenge
+
+GET http://localhost:3000/rol/1
+
+###
+GET http://localhost:3000/rol
+
+###
+ PATCH  http://localhost:3000/flights/41b1
+ Content-Type: application/json
+
+ {
+   "capacity": 120
+ }

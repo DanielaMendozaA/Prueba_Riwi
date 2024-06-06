@@ -1,0 +1,30 @@
+.navbar{
+    background-color: rgb(56, 199, 199);
+    padding: 2%;
+
+}
+body{
+    background-color: rgba(90, 167, 206,0.5);
+    padding: 2% 5%;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li{
+    list-style: none;
+    font-size: 20px;
+}
+
+.navbar li a{
+    text-decoration: none; 
+    cursor: pointer;
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+.navbar li a:hover{
+    text-decoration: underline; 
+}

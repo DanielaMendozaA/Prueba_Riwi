@@ -1,0 +1,56 @@
+.h2{
+    text-align: center;
+}
+
+.containerFlights{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.containerFlight{
+    height: 100%;
+    background-color: rgb(174, 227, 227);
+    padding: 3%;
+    border: inset 2px rgb(174, 227, 227);
+    border-radius: 20px;
+
+}
+
+.buttonAdd{
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(89, 43, 135);
+}
+
+.table{
+    display: flex;
+    gap: 10px;
+}
+
+.table td, .table th{
+    text-align: center;
+    padding-left: 40px;
+}
+
+.containerButtons{
+    padding: 1.5%;
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.hidden{
+    display: none;
+}
+
+button{
+    border: none;
+    background-color:  rgb(59, 117, 210);
+    padding: 2%;
+    border-radius: 10px;
+    color: bisque;
+    width: 10vw;
+
+}

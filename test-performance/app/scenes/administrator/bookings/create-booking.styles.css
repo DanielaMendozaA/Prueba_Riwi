@@ -1,0 +1,44 @@
+.fatherContainer{
+    display: flex;
+    background-color: rgb(210, 192, 227);
+    justify-content: center;
+    margin-top: 20px;
+    padding: 2%;
+}
+
+.formEdit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+.containerInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.containerInputs input, .formEdit input{
+    width: 15vw;
+    height: 2vh;
+    border: none;
+    background-color: rgb(178, 222, 207);
+    border-radius: 5px;
+    padding: 2%;
+    font-size: 15px;
+}
+
+.containerInputs button{
+    border: none;
+    padding: 3%;
+    background-color: rgb(52, 52, 136);
+    width: 50px;
+    align-self: center;
+    border-radius: 10px;
+}
+

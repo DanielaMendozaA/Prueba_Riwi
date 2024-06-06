@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": "d36b",
+      "name": "daniela",
+      "email": "daniela@correo.com",
+      "password": "123456",
+      "birthdate": "2024-06-05",
+      "rol": "1"
+    },
+    {
+      "id": "44a5",
+      "name": "juana velazques",
+      "email": "juana@correo.com",
+      "password": "123456",
+      "birthdate": "2024-05-10",
+      "rol": "0"
+    },
+    {
+      "id": "4141",
+      "name": "jorge",
+      "email": "jorge@correo.com",
+      "password": "123456",
+      "birthdate": "2024-06-01",
+      "rol": "0"
+    }
+  ],
+  "rol": [
+    {
+      "id": "0",
+      "rol": "visitor"
+    },
+    {
+      "id": "1",
+      "rol": "Administrator"
+    }
+  ],
+  "flights": [
+    {
+      "id": "ca3a",
+      "number": "505",
+      "origin": "MEDELLIN",
+      "destination": "CARTAGENA",
+      "departure": "2024-06-22T19:20",
+      "arrival": "2024-06-29T19:19",
+      "capacity": 195
+    },
+    {
+      "id": "eba0",
+      "number": "410",
+      "origin": "Barranquilla",
+      "destination": "Santa Marta",
+      "departure": "2024-06-21T19:21",
+      "arrival": "2024-06-22T19:21",
+      "capacity": 180
+    }
+  ],
+  "booking": [
+    {
+      "id": "ba8d",
+      "namePassenger": "juana velazques",
+      "numberOfPassenger": "5",
+      "phoneNumber": "656565",
+      "idUserCreated": "44a5",
+      "flightId": "ca3a"
+    }
+  ]
+}

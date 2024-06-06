@@ -1,0 +1,39 @@
+.containerForm{
+    width: 100%;
+    height: 100vh;
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.form input{
+    width: 15vw;
+    height: 2vh;
+    border: none;
+    background-color: rgb(109, 219, 183);
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.form button{
+    border: none;
+    padding: 1.5%;
+    background-color: rgb(59, 117, 210);
+    border-radius: 10px;
+    color: bisque;
+
+}
+
+.form a{
+    text-decoration: none;
+    color:  rgb(59, 117, 210);
+    text-transform: capitalize;
+    font-size: 20px;
+}
