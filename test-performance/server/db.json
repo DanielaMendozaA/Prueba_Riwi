@@ -23,6 +23,14 @@
       "password": "123456",
       "birthdate": "2024-06-01",
       "rol": "0"
+    },
+    {
+      "id": "007e",
+      "name": "marcos",
+      "email": "marcos@gmail.com",
+      "password": "123456",
+      "birthdate": "2024-06-27",
+      "rol": "0"
     }
   ],
   "rol": [
@@ -43,7 +51,7 @@
       "destination": "CARTAGENA",
       "departure": "2024-06-22T19:20",
       "arrival": "2024-06-29T19:19",
-      "capacity": 195
+      "capacity": 145
     },
     {
       "id": "eba0",
@@ -52,6 +60,15 @@
       "destination": "Santa Marta",
       "departure": "2024-06-21T19:21",
       "arrival": "2024-06-22T19:21",
+      "capacity": 40
+    },
+    {
+      "id": "733c",
+      "number": "603",
+      "origin": "MEDELLIN",
+      "destination": "MEXICO",
+      "departure": "2024-06-29T20:01",
+      "arrival": "2024-06-28T20:01",
       "capacity": 180
     }
   ],
@@ -63,6 +80,38 @@
       "phoneNumber": "656565",
       "idUserCreated": "44a5",
       "flightId": "ca3a"
+    },
+    {
+      "id": "9dc8",
+      "namePassenger": "camila",
+      "numberOfPassenger": "50",
+      "phoneNumber": "555555",
+      "idUserCreated": "44a5",
+      "flightId": "ca3a"
+    },
+    {
+      "id": "1ccd",
+      "namePassenger": "marcela",
+      "numberOfPassenger": "60",
+      "phoneNumber": "565656",
+      "idUserCreated": "44a5",
+      "flightId": "eba0"
+    },
+    {
+      "id": "d25e",
+      "namePassenger": "json",
+      "numberOfPassenger": "50",
+      "phoneNumber": "65656",
+      "idUserCreated": "4141",
+      "flightId": "eba0"
+    },
+    {
+      "id": "012c",
+      "namePassenger": "juliana",
+      "numberOfPassenger": "30",
+      "phoneNumber": "65456556",
+      "idUserCreated": "007e",
+      "flightId": "eba0"
     }
   ]
 }

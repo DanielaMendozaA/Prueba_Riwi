@@ -8,6 +8,7 @@ export  function LoginScene(){
     root.innerHTML = `
         <div class=${styles.containerForm}>
             <form class=${styles.form}>
+                <div class=${styles.icon}></div>
                 <input type="email" placeholder="Enter Your Email" autocomplete="email"/>
                 <input type="password" placeholder="Enter Your Password"/>
                 <button type="submit">Login</button>

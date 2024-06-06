@@ -18,6 +18,7 @@ export function RegisterScene(){
     root.innerHTML = `
         <div class=${styles.containerForm}>
             <form class=${styles.form}>
+                <div class=${styles.icon}></div>
                 <input type="text" placeholder="Enter Your Name" autocomplete="name"/>
                 <input type="email" placeholder="Enter Your Email" autocomplete="email"/>
                 <input type="date"/>
